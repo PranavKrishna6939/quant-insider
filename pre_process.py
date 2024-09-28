@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import os
 
-call_folder = '//home/jjbigdub/gitrepo/quant-insider/Nifty2023/call'
-put_folder = '/home/jjbigdub/gitrepo/quant-insider/Nifty2023/put'
-spot_data_file = '/home/jjbigdub/gitrepo/quant-insider/Nifty2023/NIFTY_cash.csv'
+call_folder = '//home/jjbigdub/gitrepo/quant-insider/BANKNIFTY2023/call'
+put_folder = '/home/jjbigdub/gitrepo/quant-insider/BANKNIFTY2023/put'
+spot_data_file = '/home/jjbigdub/gitrepo/quant-insider/BANKNIFTY2023/NIFTY_cash.csv'
 
 def combine_files_from_folder(folder_path):
     combined_df = pd.DataFrame()
